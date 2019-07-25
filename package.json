@@ -2,7 +2,7 @@
   "name": "bot",
   "version": "1.0.0",
   "description": "<p align=\"center\">\r   <a href=\"https://nodejs.org/\">\r     <img alt=\"Node.js\" src=\"https://nodejs.org/static/images/logo-light.svg\" width=\"400\"/>\r   </a>\r </p>",
-  "main": "index.js",
+  "main": "main.js",
   "dependencies": {
     "bad-words": "^3.0.2",
     "body-parser": "^1.19.0",
