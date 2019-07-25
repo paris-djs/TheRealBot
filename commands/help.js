@@ -98,7 +98,6 @@ if(args[0] === "user") {
         .setAuthor("Userhelp Seite 3")
         .setDescription(`
         **!timer (time)** - Startet ein Timer
-        **!fortnite (pc/psn/xbl) (Name)** - Zeigt Stats des Spielers (Der Name muss richtig gescchrieben sein!).
         **!nick (Nickname) (Spieler)** - (Spieler) ist Optional wenn du den Spieler nicht angibst wird dein Nickname geändert!
         **!lyrics (Lied Name)** - Sendet dir die Lyrics des Liedes in den Chat.
         **!afk** - Du bekommst neben deinem Namen ein [AFK] Tag, damit alle sehen, dass du AFK bist. Um das rückgängig zu machen gib **!afk rm** ein!
@@ -319,7 +318,6 @@ return;
                   .setAuthor("Userhelp page 3")
                   .setDescription(`
                   **!timer (Zeit)** - Starts a timer.
-                  **!fortnite (pc/psn/xbl) (name)** - Shows player's fortnite stats (the name must be correctly capped!).
                   **!nick (nickname) (player)** - (player) is optional If you don't specify the player your nickname will be changed!
                   **!lyrics (Song name)** - Send the song lyrics to the chat
                   **!afk** - You'll get an [AFK] tag next to your name so everyone can see you're AFK. To undo this, enter **!afk rm**!
