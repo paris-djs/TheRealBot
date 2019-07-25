@@ -1,5 +1,4 @@
 {
-    "token": "NTAyOTIzMjQ1NTE5ODk2NTc3.XQgcSg.78Am2q6K9_-e8cUFJRae1BQ7ZJQ",
     "owner": "285418000734093312",
     "prefix": "!",
     "red": "#b70000",
@@ -9,9 +8,5 @@
     "yellow": "#FFFF00",
     "noperm": "Ich habe keine Rechte dafür!",
     "unoperm": "Du hast dafür keine Rechte!",
-    "ownertag": "TheRealJan#3022",
-    "ws": {
-        "port": 5665,
-        "token": "123456"
-    }
+    "ownertag": "TheRealJan#3022"
 }
