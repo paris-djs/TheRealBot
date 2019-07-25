@@ -1,7 +1,6 @@
 const Discord = require("discord.js")
-const keys = require("../apikeys.json")
 const Client = require('fortnite');
-const fortnite = new Client(keys.fortnite);
+const fortnite = new Client(process.env.FORTNITE);
 
 module.exports.run = async (client, message, args, la, err) => {
     if(la === "de") {
