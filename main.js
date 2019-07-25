@@ -1,4 +1,5 @@
 ﻿// Load up the discord.js library
+
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const config = require("./config.json");
@@ -23,7 +24,6 @@ var warned = [];
 var banned = [];
 var messagelog = [];
 let coins = require("./coins.json");
-
 antispam(client, {
   warnBuffer: 3, 
   maxBuffer: 5, 
