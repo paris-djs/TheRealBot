@@ -24,18 +24,7 @@ var warned = [];
 var banned = [];
 var messagelog = [];
 let coins = require("./coins.json");
-antispam(client, {
-  warnBuffer: 3, 
-  maxBuffer: 5, 
-  interval: 2000,
-  warningMessage: "hör auf zu spammen!", 
-  banMessage: "wurde gebannt weil er 5 Warns wegen Spamming bekommen hat!", 
-  maxDuplicatesWarning: 5,
-  maxDuplicatesBan: 7,
-  deleteMessagesAfterBanForPastDays: 7,
-  exemptRoles: ["Moderator", "👑TheRealJan👑", "👑Admin👑"],
-  exemptUsers: ["MrAugu#9016"] 
-});
+
 
 fs.readdir("./commands/", (err, files) => {
   
