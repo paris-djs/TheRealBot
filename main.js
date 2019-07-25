@@ -356,4 +356,4 @@ client.afk = new Map();
     if(commandfile) commandfile.run(client,message,args,la)
   });
   
-client.login(config.token);
+client.login(process.env.TOKEN);
